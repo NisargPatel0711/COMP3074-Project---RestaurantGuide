@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">COMP3074 Project - RestaurantGuide</string>
+    <string-array name="resturant_tags">
+        <item>indian</item>
+        <item>italian</item>
+        <item>vegetarian</item>
+        <item>mexican</item>
+        <item>organic</item>
+        <item>asian</item>
+        <item>other</item>
+    </string-array>
+    <string name="title_activity_full_map_view">Map</string>
+    <string name="title_activity_current_directions">Map</string>
+</resources>

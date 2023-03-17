@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResturantDetailsScreen">
+
+    <TextView
+        android:id="@+id/txtAddName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Resturant Name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblResturantDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Description"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResturantPhone" />
+
+    <EditText
+        android:id="@+id/txtRestuantAddress"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:text="420 street"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.279"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResturantAddress" />
+
+    <EditText
+        android:id="@+id/txtResturantDescription"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:text="Big Ting Resturant"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.279"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResturantDescription" />
+
+    <EditText
+        android:id="@+id/txtResturantPhone"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:text="416-111-1111"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResturantPhone" />
+
+    <EditText
+        android:id="@+id/txtResturantName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:text="Isshin Ramen"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.279"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAddName" />
+
+    <TextView
+        android:id="@+id/lblResturantTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Tag"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRestuantAddress" />
+
+    <TextView
+        android:id="@+id/lblResturantAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Address"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResturantName" />
+
+    <EditText
+        android:id="@+id/txtResturantTag"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:text="Asian"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResturantTag" />
+
+    <TextView
+        android:id="@+id/lblResturantPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Phone Number"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRestuantAddress" />
+
+    <TextView
+        android:id="@+id/lblShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbDetailsRatingBar"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <ImageButton
+        android:id="@+id/btnEmailShare"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="164dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblShare"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/email_button" />
+
+    <ImageButton
+        android:id="@+id/btnTwitterShare"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="88dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEmailShare"
+        app:layout_constraintVertical_bias="0.138"
+        app:srcCompat="@drawable/twitter_button" />
+
+    <ImageButton
+        android:id="@+id/btnFacebookShare"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTwitterShare"
+        app:layout_constraintVertical_bias="0.119"
+        app:srcCompat="@drawable/facebook_button" />
+
+    <RatingBar
+        android:id="@+id/rbDetailsRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:stepSize="0.5"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResturantDescription" />
+
+    <Button
+        android:id="@+id/btnSaveEdits"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Save "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDirections"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSaveEdits"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <ImageButton
+        android:id="@+id/btnFullMapView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblFullMapScreen"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/google_button" />
+
+    <TextView
+        android:id="@+id/lblCurrentDirections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Directions"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbDetailsRatingBar"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <ImageButton
+        android:id="@+id/btnDirections"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/direction_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblCurrentDirections"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/lblFullMapScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Map View"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbDetailsRatingBar"
+        app:layout_constraintVertical_bias="0.104" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

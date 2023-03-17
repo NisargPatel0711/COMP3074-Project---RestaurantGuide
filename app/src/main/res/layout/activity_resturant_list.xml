@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResturantList">
+
+    <ListView
+        android:id="@+id/listResturants"
+        android:layout_width="match_parent"
+        android:layout_height="699dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="79dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="List Of Resturants"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtSearch"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listResturants"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-79dp"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:hint="Restaurant Name" />
+
+    <Button
+        android:id="@+id/btnSearchTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Search Tag" />
+
+    <EditText
+        android:id="@+id/txtSearchTag"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listResturants"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-79dp"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:hint="Tags" />
+</RelativeLayout>
